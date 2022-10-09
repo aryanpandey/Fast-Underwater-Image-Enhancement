@@ -1,6 +1,8 @@
 # Fast-Underwater-Image-Enhancement
 A Project to perform fast inference for Underwater Image Enhancement
 
+Reference Paper: [Shallow-UWNet](https://arxiv.org/abs/2101.02073)
+
 Please install torch separately using the given command. Make sure you have Cuda 10.1 on your system for the model to use the GPU on the system, else it will use the CPU
 
 Command: pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
